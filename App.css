@@ -1,0 +1,390 @@
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+  color: #FFFFFF;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header */
+.header {
+  background-color: #333333;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 2rem;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  float: right;
+}
+
+.nav-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.nav-item a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.nav-item a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+.hero-section {
+  padding: 150px 0;
+  text-align: center;
+  background-image: url('https://source.unsplash.com/random/1600x900');
+  background-size: cover;
+  background-position: center;
+  color: #FFFFFF;
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+  animation: slide-up 1s ease-out;
+}
+
+.hero-subtitle {
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+  animation: slide-up 1s ease-out;
+  animation-delay: 0.3s;
+}
+
+.hero-image {
+  max-width: 100%;
+  margin-top: 50px;
+  animation: scale-in 1s ease-out;
+  animation-delay: 0.6s;
+}
+
+.hero-button {
+  background-color: #4CAF50;
+  color: #FFFFFF;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-top: 30px;
+  animation: fade-in 1s ease-out;
+  animation-delay: 0.9s;
+}
+
+.hero-button:hover {
+  background-color: #45a049;
+}
+
+/* Diagnosis Section */
+.diagnosis-section {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.symptoms-form {
+  margin-bottom: 30px;
+}
+
+.symptoms-form input[type="text"] {
+  width: 60%;
+  padding: 10px;
+  font-size: 1.2rem;
+  border: 1px solid #333333;
+}
+
+.symptoms-form button {
+  background-color: #4CAF50;
+  color: #FFFFFF;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.diagnosis-results {
+  margin-top: 30px;
+  animation: fade-in 1s ease-out;
+}
+
+/* Breast Cancer Detection Section */
+.breast-cancer-section {
+  padding: 100px 0;
+  text-align: center;
+  background-color: #212121;
+}
+
+.breast-cancer-form {
+  margin-bottom: 30px;
+}
+
+.breast-cancer-form input[type="file"] {
+  padding: 10px;
+  font-size: 1.2rem;
+  border: 1px solid #333333;
+}
+
+.breast-cancer-form button {
+  background-color: #4CAF50;
+  color: #FFFFFF;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.breast-cancer-results {
+  margin-top: 30px;
+  animation: fade-in 1s ease-out;
+}
+
+/* Diabetes Detection Section */
+.diabetes-section {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.diabetes-form {
+  margin-bottom: 30px;
+}
+
+.diabetes-form input[type="number"] {
+  padding: 10px;
+  font-size: 1.2rem;
+  border: 1px solid #333333;
+}
+
+.diabetes-form button {
+  background-color: #4CAF50;
+  color: #FFFFFF;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.diabetes-results {
+  margin-top: 30px;
+  animation: fade-in 1s ease-out;
+}
+
+/* Lung Cancer Detection Section */
+.lung-cancer-section {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.lung-cancer-form {
+  margin-bottom: 30px;
+}
+
+.lung-cancer-form input[type="file"] {
+  padding: 10px;
+  font-size: 1.2rem;
+  border: 1px solid #333333;
+}
+
+.lung-cancer-form button {
+  background-color: #4CAF50;
+  color: #FFFFFF;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.lung-cancer-results {
+  margin-top: 30px;
+  animation: fade-in 1s ease-out;
+}
+
+/* Heart Disease Detection Section */
+.heart-disease-section {
+  padding: 100px 0;
+  text-align: center;
+  background-color: #212121;
+}
+
+.heart-disease-form {
+  margin-bottom: 30px;
+}
+
+.heart-disease-form input[type="number"] {
+  padding: 10px;
+  font-size: 1.2rem;
+  border: 1px solid #333333;
+  margin-right: 10px;
+}
+
+.heart-disease-form button {
+  background-color: #4CAF50;
+  color: #FFFFFF;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.heart-disease-results {
+  margin-top: 30px;
+  animation: fade-in 1s ease-out;
+}
+
+/* Testimonials Section */
+.testimonials-section {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.testimonial {
+  margin-bottom: 60px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #333333;
+  animation: slide-up 1s ease-out;
+}
+
+.testimonial p {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.testimonial-author {
+  font-style: italic;
+  font-size: 1.2rem;
+}
+
+/* Contact Section */
+.contact-section {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.contact-section p {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  animation: slide-up 1s ease-out;
+}
+
+.contact-section ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 30px;
+  animation: fade-in 1s ease-out;
+}
+
+.contact-section ul li {
+  font-size: 1.2rem;
+}
+
+/* Footer */
+.footer {
+  background-color: #333333;
+  padding: 20px 0;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+  animation: fade-in 1s ease-out;
+}
+
+.footer p {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+/* Animations */
+@keyframes slide-up {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes scale-in {
+  from {
+    transform: scale(0);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 100px 0;
+  }
+
+  .hero-title {
+    font-size: 2.5rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.5rem;
+  }
+
+  .hero-button {
+    font-size: 1rem;
+    padding: 8px 16px;
+  }
+
+  .section-title {
+    font-size: 2.5rem;
+  }
+
+  .feature-item h3 {
+    font-size: 1.5rem;
+  }
+
+  .testimonial p {
+    font-size: 1.2rem;
+  }
+
+  .testimonial-author {
+    font-size: 1rem;
+  }
+}
